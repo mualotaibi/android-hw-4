@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCB74"
+    android:backgroundTint="#E1FFC2"
+    android:orientation="vertical"
+    tools:context="MainActivity">
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="60dp"
+        android:background="#94C66A"
+        android:fontFamily="cursive"
+        android:text="Grade calculator"
+        android:textColor="#492F2F"
+        android:textColorHighlight="#000000"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="210dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#EA907A"
+        android:text="calcuate" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="7dp"
+        android:backgroundTint="#FF5722"
+        android:drawableRight="?attr/actionModeCloseDrawable"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Quizes %15"
+        android:inputType="textPersonName"
+        android:textColor="#613131"
+        android:textColorHighlight="#D9FCB5"
+        android:textColorHint="#592224"
+        android:textColorLink="#FFFFFF" />
+
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="7dp"
+        android:drawableRight="?attr/actionModeCloseDrawable"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Howemork %25"
+        android:inputType="textPersonName"
+        android:scrollbarTrackHorizontal="@color/colorPrimaryDark"
+        android:scrollbarTrackVertical="@android:drawable/ic_menu_search"
+        android:textColor="#613131"
+        android:textColorHighlight="#732929"
+        android:textColorHint="#611F1F"
+        android:textColorLink="#E7B172" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="7dp"
+        android:drawableRight="?attr/actionModeCloseDrawable"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="Mid trems 30%"
+        android:inputType="textPersonName"
+        android:scrollbarTrackHorizontal="@color/colorPrimaryDark"
+        android:scrollbarTrackVertical="@android:drawable/ic_menu_search"
+        android:textColor="#4D2425"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#541D1F" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="7dp"
+        android:drawableRight="?attr/actionModeCloseDrawable"
+        android:ems="10"
+        android:fontFamily="serif"
+        android:hint="finl 30%"
+        android:inputType="textPersonName"
+        android:scrollbarTrackHorizontal="@color/colorPrimaryDark"
+        android:scrollbarTrackVertical="@android:drawable/ic_menu_search"
+        android:textColor="#DF2A31"
+        android:textColorHighlight="#592123"
+        android:textColorHint="#592123"
+        android:textColorLink="#4D2023" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="540dp"
+        android:shadowColor="#566C3D"
+        android:text="reset"
+        android:textColorHint="#B34B4B"
+        android:textColorLink="#8BC34A"
+        android:textSize="18sp"
+        android:backgroundTint="#83BE57" />
+
+
+</RelativeLayout>
+
+
